@@ -1,10 +1,12 @@
 import "./App.css";
-import FormSubmit from "./components/FormSubmit";
+import Home from "./components/Home";
+import IncreDecre from "./components/IncreDecre";
 
 function App() {
   return (
     <>
-      <FormSubmit />
+      {/* <Home /> */}
+      <IncreDecre />
     </>
   );
 }
