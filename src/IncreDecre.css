@@ -1,0 +1,29 @@
+.container{
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: black;
+}
+.Value{
+    color: azure;
+    position: absolute;
+    display: inline-block;
+    left: 30%;
+    top: 15%;
+    font-size: larger;
+}
+.btn1{
+position: absolute;
+top: 40%;
+left: 15%;
+background-color: brown;
+padding: 2%;
+}
+.btn2{
+position: absolute;
+left: 40%;
+top: 40%;
+background-color: brown;
+padding: 2%;
+}
