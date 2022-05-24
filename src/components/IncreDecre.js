@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../IncreDecre.css";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import AddIcon from "@mui/icons-material/Add";
+import RemoveIcon from "@mui/icons-material/Remove";
 
 function IncreDecre(props) {
   const [input, setInput] = useState("0");
@@ -17,17 +21,34 @@ function IncreDecre(props) {
   };
 
   return (
-    <div className="container">
-      <label htmlFor="values" className="Value">
-        {input}
-      </label>
-      <button className="btn1" onClick={handleIncrement}>
-        INCREMENT
-      </button>
-      <button className="btn2" onClick={handleDecrement}>
-        DECREMENT
-      </button>
-    </div>
+    <>
+      <Box
+        sx={{
+          width: 400,
+          height: 400,
+          backgroundColor: "pink",
+          "&:hover": {
+            backgroundColor: "black",
+            opacity: [0.9, 0.8, 0.7],
+          },
+          marginTop: 15,
+          marginLeft: 70,
+        }}
+        className="main_div"
+      >
+        <div className="center_div">
+          <h1>{input}</h1>
+          <div className="btn_div">
+            <Button variant="contained" onClick={handleIncrement}>
+              <AddIcon />
+            </Button>
+            <Button variant="contained" onClick={handleDecrement}>
+              <RemoveIcon />
+            </Button>
+          </div>
+        </div>
+      </Box>
+    </>
   );
 }
 
