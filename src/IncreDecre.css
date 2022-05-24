@@ -13,17 +13,29 @@
     top: 15%;
     font-size: larger;
 }
-.btn1{
-position: absolute;
-top: 40%;
-left: 15%;
-background-color: brown;
-padding: 2%;
+.btn_div{
+width: 100%;
+display: flex;
+justify-content:space-around;
+align-items: center;
 }
-.btn2{
-position: absolute;
-left: 40%;
-top: 40%;
-background-color: brown;
-padding: 2%;
+button{
+    margin-top: 30px;
+}
+.center_div{
+    background-color: burlywood;
+width: 70%;
+height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
 }
