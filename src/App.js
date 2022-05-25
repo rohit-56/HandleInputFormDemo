@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import IncreDecre from "./components/IncreDecre";
 import FormSubmit from "./components/FormSubmit";
+import Todolist from "./components/Todolist";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
             <Route exact path="/formSubmit" element={<FormSubmit />} />
 
             <Route exact path="/increDecre" element={<IncreDecre />} />
+
+            <Route exact path="/todolist" element={<Todolist />} />
           </Routes>
         </div>
       </Router>
