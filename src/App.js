@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import IncreDecre from "./components/IncreDecre";
 import FormSubmit from "./components/FormSubmit";
 import Todolist from "./components/Todolist";
+import LearnUseEffect from "./components/LearnUseEffect";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
             <Route exact path="/increDecre" element={<IncreDecre />} />
 
             <Route exact path="/todolist" element={<Todolist />} />
+
+            <Route exact path="/learnUseEffect" element={<LearnUseEffect />} />
           </Routes>
         </div>
       </Router>
