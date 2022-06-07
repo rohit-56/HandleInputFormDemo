@@ -42,6 +42,11 @@ function NavBar() {
                   ToDoList
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/learnUseEffect">
+                  LearnUseEffect
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
