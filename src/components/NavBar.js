@@ -47,6 +47,11 @@ function NavBar() {
                   LearnUseEffect
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/learnCarousel">
+                  LearnCarousel
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -6,6 +6,7 @@ import IncreDecre from "./components/IncreDecre";
 import FormSubmit from "./components/FormSubmit";
 import Todolist from "./components/Todolist";
 import LearnUseEffect from "./components/LearnUseEffect";
+import ImplCarousel from "./components/learnCarousel/ImplCarousel";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/todolist" element={<Todolist />} />
 
             <Route exact path="/learnUseEffect" element={<LearnUseEffect />} />
+            <Route exact path="/learnCarousel" element={<ImplCarousel />} />
           </Routes>
         </div>
       </Router>
